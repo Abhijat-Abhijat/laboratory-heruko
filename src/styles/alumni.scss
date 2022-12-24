@@ -1,0 +1,44 @@
+section {
+  width: 80vw;
+  margin:  0 auto ;
+  margin-top: 10px;
+  padding: 20px;
+  padding-top: 0;
+  justify-content: start;
+  table {
+    width: 100%;
+    border-radius: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius:0px 0px 10px 10px;
+    caption {
+      font-size: 1.8rem;
+      font-weight: 800;
+      padding: 10px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    tr {
+      td,
+      th {
+        height: 2vh;
+        padding: 10px;
+        text-align: center;
+        a {
+          font-size: 1rem;
+          font-weight: 800;
+          color: #777;
+        }
+      }
+    }
+  }
+}

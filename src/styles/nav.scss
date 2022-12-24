@@ -1,0 +1,36 @@
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin-bottom: 0;
+    height: 5vh;
+    overflow: visible;
+    
+        a{
+            color: rgb(16, 59, 102);
+            text-decoration: none;
+            margin: 0 1rem;
+            transform: translateY(-25px);
+            border: solid 10px #000;
+            border-radius: 50px;
+            padding: 12px;
+            font-weight: 800;
+            font-size: 1.2rem;
+            z-index: 2;
+            background-color: #fff;
+            &:hover{
+                color: rgb(252, 251, 251);
+                background-color: #000;
+                font-weight: 200;
+                border: solid 10px #000;
+                // color: #000;
+            }
+        }
+}
+

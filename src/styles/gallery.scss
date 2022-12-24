@@ -1,0 +1,33 @@
+
+.swiper{
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto 10vh auto;
+    padding: 50px;
+    .swiper-slide{
+        border-radius: 30px 30px 5px 5px;
+        img{
+            border-radius: 30px 30px 5px 5px;
+        }
+        p{
+            text-align: center;
+            background-color: black;
+            border-radius: 0px 0px 10px 10px;
+            color: white;
+            // font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            padding: 5px 0px;
+            // width: 50vw;
+        }
+    }
+    .swiper-button-prev, .swiper-button-next{
+        background-color: #000;
+        color: #fff;
+        font-weight: 800;
+        padding: 20px;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+}
